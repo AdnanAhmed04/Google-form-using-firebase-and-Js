@@ -1,0 +1,53 @@
+* {
+    /* font-size: large; */
+    padding: 5px;
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+
+input {
+    width: 300px;
+    padding: 5px;
+    /* margin: 3px; */
+
+}
+
+.text_input {
+    border-radius: 5px;
+    border: 1px solid rgb(158, 153, 153);
+}
+
+.radio_div {
+    display: flex;
+    align-items: center;
+
+}
+
+.radio_div p {
+    margin: 0;
+    margin-right: 0px;
+}
+
+input[type="radio"] {
+    transform: scale(1);
+    /* Adjust the scale value as needed */
+}
+
+input[type="radio"]+label {
+    margin-left: -130px;
+    /* Adjust the value as needed */
+    font-size: large;
+    /* Adjust the font size as needed */
+}
+
+.radio_div>* {
+    margin-right: 0px;
+    /* Adjust the value as needed */
+}

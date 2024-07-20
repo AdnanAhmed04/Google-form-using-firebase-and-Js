@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="row">
+        <input id="name" class="text_input" type="text" placeholder="Your Name">
+        <input id="fname" class="text_input" type="text" placeholder="Father Name">
+        <input id="jposition" class="text_input" type="text" placeholder="Job position">
+        <input id="exp" type="number" placeholder="No. of experience" min="0">
+        <div class="radio_div">
+            <p>Gender</p>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+        </div>
+
+
+        <input id="file" type="file" placeholder="Upload CV">
+
+
+        <button onclick="finish()">Submit</button>
+    </div>
+
+
+
+
+
+
+    <script src="myscripts.js"></script>
+
+</body>
+
+</html>
