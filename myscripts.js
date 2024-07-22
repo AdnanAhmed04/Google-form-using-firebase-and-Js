@@ -1,3 +1,4 @@
+// console.log('hello')
 var sname = document.getElementById('name');
 var fname = document.getElementById('fname');
 var position = document.getElementById('jposition');
